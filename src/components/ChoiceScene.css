@@ -1,0 +1,17 @@
+.sceneItem {
+    border: solid 1px black;
+    border-radius: 10px;
+    background: #6afad0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px 3px #b4b4b4;
+}
+
+.sceneItem:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+    transition: all 0.3s;
+}

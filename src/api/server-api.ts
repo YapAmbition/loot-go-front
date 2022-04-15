@@ -29,3 +29,11 @@ export const choiceFlow = (flowName: string): Promise<CommonResponse> => {
         flowName: flowName
     })
 }
+
+export const exitScene = (): Promise<CommonResponse> => {
+    return http.post(`/game/exitScene`)
+}
+
+export const showMyLooter = (): Promise<CommonResponse> => {
+    return http.get(`/game/showMyLooter`)
+}
