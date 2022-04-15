@@ -19,7 +19,7 @@ const LooterSummary: React.FC<unknown> = () => {
     const content = <div>
         <Row>
             <Col span={4}>
-                <Avatar size="large" icon={<img src={"../png/looter.png"}/>} />
+                <Avatar size="large" icon={<img src={require("../png/looter.png")}/>} />
             </Col>
             <Col span={20}>
                 {
