@@ -2,7 +2,7 @@ import axios from "axios"
 
 const http = axios.create({
     // 开发时用localhost
-    // http://localhost:8080/
+    // baseURL: "http://localhost:8080/",
     baseURL: "http://nikfce.com:8080/",
     withCredentials: true
 });
